@@ -1,0 +1,35 @@
+thead {
+    color: rgb(79,89,102);
+  }
+input {
+  background-color: rgba(145, 158, 171, 0.4);
+}
+ul {
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0D6EFD;
+  border-radius: 3px;
+}
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+}
+.table-row:hover .delete-button {
+  visibility: visible;
+}
+.user-select-none {
+  user-select: none;
+}
+.size-large {
+  font-size: 20px;
+}
